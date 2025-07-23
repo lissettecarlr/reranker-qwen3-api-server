@@ -1,0 +1,97 @@
+# Git 和版本控制
+.git
+.gitignore
+.gitattributes
+
+# Python 编译文件和缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+api/logs/
+
+# 测试和覆盖率报告
+.coverage
+.pytest_cache/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 模型文件（如果已经下载到本地）
+apps/reranker/models/
+cache/
+.cache/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Docker 相关
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# 文档
+README.md
+API.md
+*.md
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# 其他
+test/
+.pytest_cache/ 
