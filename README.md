@@ -1,5 +1,7 @@
 # Qwen3 Reranker API 服务
 
+[English](README_EN.md) | 中文
+
 基于 Qwen/Qwen3-Reranker 模型的文档重排序 API 服务
 
 ## 环境
